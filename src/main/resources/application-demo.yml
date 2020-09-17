@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: spring.profiles.active@
+    
+server:
+  port: 5000
+
+datasource:
+    url: jdbc:postgresql://mydb.c8xgsvtaougm.us-east-2.rds.amazonaws.com:5432/spring_boot_deploy
+    username: romanm
+    password: roma9201
+    driver: org.postgresql.Driver

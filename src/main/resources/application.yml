@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: spring.profiles.active@
+
+datasource:
+    url: jdbc:postgresql://localhost:5432/spring_boot_deploy
+    username: postgres
+    password: roma
+    driver: org.postgresql.Driver

@@ -1,0 +1,26 @@
+<th:block xmlns:th="http://www.thymeleaf.org" th:fragment="navigationBar">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+    <li class="nav-item">
+        <a class="nav-link" th:href="@{~/}">Home</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" th:href="@{~/create}">Create</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" th:href="@{~/update}">Update</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" th:href="@{~/showAll}">Show All</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" th:href="@{~/getById}">Get By Id</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" th:href="@{~/delete}">Delete</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</th:block>
